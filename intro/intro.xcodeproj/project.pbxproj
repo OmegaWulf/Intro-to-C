@@ -25,6 +25,19 @@
 /* Begin PBXFileReference section */
 		11ACC1AA226E866C003C1DC5 /* intro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = intro; sourceTree = BUILT_PRODUCTS_DIR; };
 		11ACC1AD226E866C003C1DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		11ACC1B4226E86A1003C1DC5 /* queue */ = {isa = PBXFileReference; lastKnownFileType = folder; name = queue; path = ../../queue; sourceTree = "<group>"; };
+		11ACC1B5226E86A1003C1DC5 /* strings */ = {isa = PBXFileReference; lastKnownFileType = folder; name = strings; path = ../../strings; sourceTree = "<group>"; };
+		11ACC1B6226E86A1003C1DC5 /* hangman */ = {isa = PBXFileReference; lastKnownFileType = folder; name = hangman; path = ../../hangman; sourceTree = "<group>"; };
+		11ACC1B7226E86A1003C1DC5 /* fizzbuzz */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fizzbuzz; path = ../../fizzbuzz; sourceTree = "<group>"; };
+		11ACC1B8226E86A1003C1DC5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		11ACC1B9226E86A1003C1DC5 /* utils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = utils; path = ../../utils; sourceTree = "<group>"; };
+		11ACC1BA226E86A1003C1DC5 /* malloc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = malloc; path = ../../malloc; sourceTree = "<group>"; };
+		11ACC1BB226E86A1003C1DC5 /* TROUBLESHOOTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = TROUBLESHOOTING.md; path = ../../TROUBLESHOOTING.md; sourceTree = "<group>"; };
+		11ACC1BC226E86A1003C1DC5 /* quicksort */ = {isa = PBXFileReference; lastKnownFileType = folder; name = quicksort; path = ../../quicksort; sourceTree = "<group>"; };
+		11ACC1BD226E86A1003C1DC5 /* mainbuild.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mainbuild.mk; path = ../../mainbuild.mk; sourceTree = "<group>"; };
+		11ACC1BE226E86A1003C1DC5 /* FAQ.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = FAQ.md; path = ../../FAQ.md; sourceTree = "<group>"; };
+		11ACC1BF226E86A1003C1DC5 /* structs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = structs; path = ../../structs; sourceTree = "<group>"; };
+		11ACC1C0226E86A1003C1DC5 /* pointers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pointers; path = ../../pointers; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +70,19 @@
 		11ACC1AC226E866C003C1DC5 /* intro */ = {
 			isa = PBXGroup;
 			children = (
+				11ACC1BE226E86A1003C1DC5 /* FAQ.md */,
+				11ACC1B7226E86A1003C1DC5 /* fizzbuzz */,
+				11ACC1B6226E86A1003C1DC5 /* hangman */,
+				11ACC1BD226E86A1003C1DC5 /* mainbuild.mk */,
+				11ACC1BA226E86A1003C1DC5 /* malloc */,
+				11ACC1C0226E86A1003C1DC5 /* pointers */,
+				11ACC1B4226E86A1003C1DC5 /* queue */,
+				11ACC1BC226E86A1003C1DC5 /* quicksort */,
+				11ACC1B8226E86A1003C1DC5 /* README.md */,
+				11ACC1B5226E86A1003C1DC5 /* strings */,
+				11ACC1BF226E86A1003C1DC5 /* structs */,
+				11ACC1BB226E86A1003C1DC5 /* TROUBLESHOOTING.md */,
+				11ACC1B9226E86A1003C1DC5 /* utils */,
 				11ACC1AD226E866C003C1DC5 /* main.c */,
 			);
 			path = intro;
